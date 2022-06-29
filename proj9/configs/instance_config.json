@@ -1,0 +1,15 @@
+{
+    "key_path":"/ec2_key/ec2-key-pair.ppk",
+    "Private_key_path":"/ec2_key/ec2-key-pair.pem",
+    "key_name":"ec2-key-pair",
+    "username":"ec2-user",
+    "ami_id": "ami-0022f774911c1d690",
+    "instance_type":"t2.micro",
+    "region_name": "us-east-1",
+    "vpc_id":"vpc-0acf6271cfc0d3e3a",
+    "subnet_id":"subnet-0f16e5f89c101fcde",
+    "security_grp_id":"sg-0d3b3530d743a61f6",
+    "installation_script_path":"/configs/installation_script.sh",
+    "installation_script_config_path":"/configs/installation_data.config",
+    "Tags": [{"Key": "netapp","Value":"123"}]
+}

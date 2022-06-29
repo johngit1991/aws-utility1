@@ -1,0 +1,1299 @@
+
+2022-06-29 11:14:45.589986Connecting  to an Instance.......
+2022-06-29 11:15:03.591512Instance Connected Sucessfully !!
+2022-06-29 11:15:03.595018
+Starting Installation setup on instance ...
+2022-06-29 11:15:47.323361Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package curl.x86_64 0:7.79.1-1.amzn2.0.1 will be updated
+---> Package curl.x86_64 0:7.79.1-2.amzn2.0.1 will be an update
+---> Package dracut.x86_64 0:033-535.amzn2.1.5 will be updated
+---> Package dracut.x86_64 0:033-535.amzn2.1.6 will be an update
+---> Package dracut-config-generic.x86_64 0:033-535.amzn2.1.5 will be updated
+---> Package dracut-config-generic.x86_64 0:033-535.amzn2.1.6 will be an update
+---> Package iproute.x86_64 0:5.10.0-2.amzn2.0.1 will be updated
+---> Package iproute.x86_64 0:5.10.0-2.amzn2.0.2 will be an update
+---> Package kernel.x86_64 0:5.10.118-111.515.amzn2 will be installed
+---> Package kernel-tools.x86_64 0:5.10.109-104.500.amzn2 will be updated
+---> Package kernel-tools.x86_64 0:5.10.118-111.515.amzn2 will be an update
+---> Package libcurl.x86_64 0:7.79.1-1.amzn2.0.1 will be updated
+---> Package libcurl.x86_64 0:7.79.1-2.amzn2.0.1 will be an update
+---> Package libgcc.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libgcc.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libgomp.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libgomp.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libstdc++.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libstdc++.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libtiff.x86_64 0:4.0.3-35.amzn2.0.1 will be updated
+---> Package libtiff.x86_64 0:4.0.3-35.amzn2.0.2 will be an update
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.0.11 will be updated
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.0.12 will be an update
+---> Package openldap.x86_64 0:2.4.44-23.amzn2.0.3 will be updated
+---> Package openldap.x86_64 0:2.4.44-23.amzn2.0.4 will be an update
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.2 will be updated
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.3 will be an update
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.2 will be updated
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.3 will be an update
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package systemd.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package systemd-libs.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd-libs.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package systemd-sysv.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd-sysv.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package vim-common.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-common.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-data.noarch 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-data.noarch 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-enhanced.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-enhanced.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-filesystem.noarch 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-filesystem.noarch 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-minimal.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-minimal.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch   Version                Repository              Size
+================================================================================
+Installing:
+ kernel              x86_64 5.10.118-111.515.amzn2 amzn2extra-kernel-5.10  31 M
+Updating:
+ curl                x86_64 7.79.1-2.amzn2.0.1     amzn2-core             359 k
+ dracut              x86_64 033-535.amzn2.1.6      amzn2-core             325 k
+ dracut-config-generic
+                     x86_64 033-535.amzn2.1.6      amzn2-core              57 k
+ iproute             x86_64 5.10.0-2.amzn2.0.2     amzn2-core             649 k
+ kernel-tools        x86_64 5.10.118-111.515.amzn2 amzn2extra-kernel-5.10 177 k
+ libcurl             x86_64 7.79.1-2.amzn2.0.1     amzn2-core             321 k
+ libgcc              x86_64 7.3.1-15.amzn2         amzn2-core              98 k
+ libgomp             x86_64 7.3.1-15.amzn2         amzn2-core             204 k
+ libstdc++           x86_64 7.3.1-15.amzn2         amzn2-core             445 k
+ libtiff             x86_64 4.0.3-35.amzn2.0.2     amzn2-core             173 k
+ microcode_ctl       x86_64 2:2.1-47.amzn2.0.12    amzn2-core             298 k
+ openldap            x86_64 2.4.44-23.amzn2.0.4    amzn2-core             351 k
+ openssl             x86_64 1:1.0.2k-24.amzn2.0.3  amzn2-core             496 k
+ openssl-libs        x86_64 1:1.0.2k-24.amzn2.0.3  amzn2-core             1.2 M
+ python              x86_64 2.7.18-1.amzn2.0.5     amzn2-core              93 k
+ python-devel        x86_64 2.7.18-1.amzn2.0.5     amzn2-core             403 k
+ python-libs         x86_64 2.7.18-1.amzn2.0.5     amzn2-core             7.5 M
+ systemd             x86_64 219-78.amzn2.0.18      amzn2-core             5.0 M
+ systemd-libs        x86_64 219-78.amzn2.0.18      amzn2-core             408 k
+ systemd-sysv        x86_64 219-78.amzn2.0.18      amzn2-core              98 k
+ vim-common          x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             7.5 M
+ vim-data            noarch 2:8.2.4857-1.amzn2.0.1 amzn2-core              75 k
+ vim-enhanced        x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             1.6 M
+ vim-filesystem      noarch 2:8.2.4857-1.amzn2.0.1 amzn2-core              70 k
+ vim-minimal         x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             686 k
+
+Transaction Summary
+================================================================================
+Install   1 Package
+Upgrade  25 Packages
+
+Total download size: 60 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+--------------------------------------------------------------------------------
+Total                                               44 MB/s |  60 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : 1:openssl-libs-1.0.2k-24.amzn2.0.3.x86_64                   1/51 
+  Updating   : libgcc-7.3.1-15.amzn2.x86_64                                2/51 
+  Updating   : openldap-2.4.44-23.amzn2.0.4.x86_64                         3/51 
+  Updating   : libcurl-7.79.1-2.amzn2.0.1.x86_64                           4/51 
+  Updating   : python-libs-2.7.18-1.amzn2.0.5.x86_64                       5/51 
+  Updating   : python-2.7.18-1.amzn2.0.5.x86_64                            6/51 
+  Updating   : 2:vim-data-8.2.4857-1.amzn2.0.1.noarch                      7/51 
+  Updating   : libstdc++-7.3.1-15.amzn2.x86_64                             8/51 
+  Updating   : systemd-libs-219-78.amzn2.0.18.x86_64                       9/51 
+  Updating   : systemd-219-78.amzn2.0.18.x86_64                           10/51 
+  Updating   : dracut-033-535.amzn2.1.6.x86_64                            11/51 
+  Updating   : 2:microcode_ctl-2.1-47.amzn2.0.12.x86_64                   12/51 
+  Updating   : 2:vim-filesystem-8.2.4857-1.amzn2.0.1.noarch               13/51 
+  Updating   : 2:vim-common-8.2.4857-1.amzn2.0.1.x86_64                   14/51 
+  Updating   : 2:vim-enhanced-8.2.4857-1.amzn2.0.1.x86_64                 15/51 
+  Installing : kernel-5.10.118-111.515.amzn2.x86_64                       16/51 
+  Updating   : dracut-config-generic-033-535.amzn2.1.6.x86_64             17/51 
+  Updating   : systemd-sysv-219-78.amzn2.0.18.x86_64                      18/51 
+  Updating   : libtiff-4.0.3-35.amzn2.0.2.x86_64                          19/51 
+  Updating   : 2:vim-minimal-8.2.4857-1.amzn2.0.1.x86_64                  20/51 
+  Updating   : python-devel-2.7.18-1.amzn2.0.5.x86_64                     21/51 
+  Updating   : curl-7.79.1-2.amzn2.0.1.x86_64                             22/51 
+  Updating   : 1:openssl-1.0.2k-24.amzn2.0.3.x86_64                       23/51 
+  Updating   : kernel-tools-5.10.118-111.515.amzn2.x86_64                 24/51 
+  Updating   : iproute-5.10.0-2.amzn2.0.2.x86_64                          25/51 
+  Updating   : libgomp-7.3.1-15.amzn2.x86_64                              26/51 
+  Cleanup    : python-devel-2.7.18-1.amzn2.0.4.x86_64                     27/51 
+  Cleanup    : curl-7.79.1-1.amzn2.0.1.x86_64                             28/51 
+  Cleanup    : systemd-sysv-219-78.amzn2.0.16.x86_64                      29/51 
+  Cleanup    : libtiff-4.0.3-35.amzn2.0.1.x86_64                          30/51 
+  Cleanup    : dracut-config-generic-033-535.amzn2.1.5.x86_64             31/51 
+  Cleanup    : dracut-033-535.amzn2.1.5.x86_64                            32/51 
+  Cleanup    : libstdc++-7.3.1-14.amzn2.x86_64                            33/51 
+  Cleanup    : python-2.7.18-1.amzn2.0.4.x86_64                           34/51 
+  Cleanup    : python-libs-2.7.18-1.amzn2.0.4.x86_64                      35/51 
+  Cleanup    : 2:vim-enhanced-8.2.4428-1.amzn2.0.3.x86_64                 36/51 
+  Cleanup    : 2:vim-common-8.2.4428-1.amzn2.0.3.x86_64                   37/51 
+  Cleanup    : 1:openssl-1.0.2k-24.amzn2.0.2.x86_64                       38/51 
+  Cleanup    : 2:vim-minimal-8.2.4428-1.amzn2.0.3.x86_64                  39/51 
+  Cleanup    : 2:microcode_ctl-2.1-47.amzn2.0.11.x86_64                   40/51 
+  Cleanup    : 2:vim-data-8.2.4428-1.amzn2.0.3.noarch                     41/51 
+  Cleanup    : 2:vim-filesystem-8.2.4428-1.amzn2.0.3.noarch               42/51 
+  Cleanup    : systemd-219-78.amzn2.0.16.x86_64                           43/51 
+  Cleanup    : libcurl-7.79.1-1.amzn2.0.1.x86_64                          44/51 
+  Cleanup    : openldap-2.4.44-23.amzn2.0.3.x86_64                        45/51 
+  Cleanup    : systemd-libs-219-78.amzn2.0.16.x86_64                      46/51 
+  Cleanup    : libgcc-7.3.1-14.amzn2.x86_64                               47/51 
+  Cleanup    : 1:openssl-libs-1.0.2k-24.amzn2.0.2.x86_64                  48/51 
+  Cleanup    : kernel-tools-5.10.109-104.500.amzn2.x86_64                 49/51 
+  Cleanup    : iproute-5.10.0-2.amzn2.0.1.x86_64                          50/51 
+  Cleanup    : libgomp-7.3.1-14.amzn2.x86_64                              51/51 
+  Verifying  : libtiff-4.0.3-35.amzn2.0.2.x86_64                           1/51 
+  Verifying  : libgomp-7.3.1-15.amzn2.x86_64                               2/51 
+  Verifying  : dracut-config-generic-033-535.amzn2.1.6.x86_64              3/51 
+  Verifying  : 2:vim-data-8.2.4857-1.amzn2.0.1.noarch                      4/51 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.0.12.x86_64                    5/51 
+  Verifying  : libcurl-7.79.1-2.amzn2.0.1.x86_64                           6/51 
+  Verifying  : python-2.7.18-1.amzn2.0.5.x86_64                            7/51 
+  Verifying  : openldap-2.4.44-23.amzn2.0.4.x86_64                         8/51 
+  Verifying  : libstdc++-7.3.1-15.amzn2.x86_64                             9/51 
+  Verifying  : systemd-libs-219-78.amzn2.0.18.x86_64                      10/51 
+  Verifying  : systemd-219-78.amzn2.0.18.x86_64                           11/51 
+  Verifying  : kernel-5.10.118-111.515.amzn2.x86_64                       12/51 
+  Verifying  : 2:vim-filesystem-8.2.4857-1.amzn2.0.1.noarch               13/51 
+  Verifying  : 2:vim-minimal-8.2.4857-1.amzn2.0.1.x86_64                  14/51 
+  Verifying  : 2:vim-common-8.2.4857-1.amzn2.0.1.x86_64                   15/51 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.3.x86_64                       16/51 
+  Verifying  : iproute-5.10.0-2.amzn2.0.2.x86_64                          17/51 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.5.x86_64                     18/51 
+  Verifying  : kernel-tools-5.10.118-111.515.amzn2.x86_64                 19/51 
+  Verifying  : libgcc-7.3.1-15.amzn2.x86_64                               20/51 
+  Verifying  : curl-7.79.1-2.amzn2.0.1.x86_64                             21/51 
+  Verifying  : 2:vim-enhanced-8.2.4857-1.amzn2.0.1.x86_64                 22/51 
+  Verifying  : dracut-033-535.amzn2.1.6.x86_64                            23/51 
+  Verifying  : systemd-sysv-219-78.amzn2.0.18.x86_64                      24/51 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.3.x86_64                  25/51 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.5.x86_64                      26/51 
+  Verifying  : iproute-5.10.0-2.amzn2.0.1.x86_64                          27/51 
+  Verifying  : 2:vim-minimal-8.2.4428-1.amzn2.0.3.x86_64                  28/51 
+  Verifying  : python-2.7.18-1.amzn2.0.4.x86_64                           29/51 
+  Verifying  : curl-7.79.1-1.amzn2.0.1.x86_64                             30/51 
+  Verifying  : dracut-config-generic-033-535.amzn2.1.5.x86_64             31/51 
+  Verifying  : libcurl-7.79.1-1.amzn2.0.1.x86_64                          32/51 
+  Verifying  : 2:vim-data-8.2.4428-1.amzn2.0.3.noarch                     33/51 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.4.x86_64                     34/51 
+  Verifying  : 2:vim-filesystem-8.2.4428-1.amzn2.0.3.noarch               35/51 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.2.x86_64                       36/51 
+  Verifying  : 2:vim-common-8.2.4428-1.amzn2.0.3.x86_64                   37/51 
+  Verifying  : openldap-2.4.44-23.amzn2.0.3.x86_64                        38/51 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.0.11.x86_64                   39/51 
+  Verifying  : dracut-033-535.amzn2.1.5.x86_64                            40/51 
+  Verifying  : libstdc++-7.3.1-14.amzn2.x86_64                            41/51 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.2.x86_64                  42/51 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.4.x86_64                      43/51 
+  Verifying  : systemd-219-78.amzn2.0.16.x86_64                           44/51 
+  Verifying  : systemd-sysv-219-78.amzn2.0.16.x86_64                      45/51 
+  Verifying  : kernel-tools-5.10.109-104.500.amzn2.x86_64                 46/51 
+  Verifying  : libgomp-7.3.1-14.amzn2.x86_64                              47/51 
+  Verifying  : 2:vim-enhanced-8.2.4428-1.amzn2.0.3.x86_64                 48/51 
+  Verifying  : libgcc-7.3.1-14.amzn2.x86_64                               49/51 
+  Verifying  : libtiff-4.0.3-35.amzn2.0.1.x86_64                          50/51 
+  Verifying  : systemd-libs-219-78.amzn2.0.16.x86_64                      51/51 
+
+Installed:
+  kernel.x86_64 0:5.10.118-111.515.amzn2                                        
+
+Updated:
+  curl.x86_64 0:7.79.1-2.amzn2.0.1                                              
+  dracut.x86_64 0:033-535.amzn2.1.6                                             
+  dracut-config-generic.x86_64 0:033-535.amzn2.1.6                              
+  iproute.x86_64 0:5.10.0-2.amzn2.0.2                                           
+  kernel-tools.x86_64 0:5.10.118-111.515.amzn2                                  
+  libcurl.x86_64 0:7.79.1-2.amzn2.0.1                                           
+  libgcc.x86_64 0:7.3.1-15.amzn2                                                
+  libgomp.x86_64 0:7.3.1-15.amzn2                                               
+  libstdc++.x86_64 0:7.3.1-15.amzn2                                             
+  libtiff.x86_64 0:4.0.3-35.amzn2.0.2                                           
+  microcode_ctl.x86_64 2:2.1-47.amzn2.0.12                                      
+  openldap.x86_64 0:2.4.44-23.amzn2.0.4                                         
+  openssl.x86_64 1:1.0.2k-24.amzn2.0.3                                          
+  openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.3                                     
+  python.x86_64 0:2.7.18-1.amzn2.0.5                                            
+  python-devel.x86_64 0:2.7.18-1.amzn2.0.5                                      
+  python-libs.x86_64 0:2.7.18-1.amzn2.0.5                                       
+  systemd.x86_64 0:219-78.amzn2.0.18                                            
+  systemd-libs.x86_64 0:219-78.amzn2.0.18                                       
+  systemd-sysv.x86_64 0:219-78.amzn2.0.18                                       
+  vim-common.x86_64 2:8.2.4857-1.amzn2.0.1                                      
+  vim-data.noarch 2:8.2.4857-1.amzn2.0.1                                        
+  vim-enhanced.x86_64 2:8.2.4857-1.amzn2.0.1                                    
+  vim-filesystem.noarch 2:8.2.4857-1.amzn2.0.1                                  
+  vim-minimal.x86_64 2:8.2.4857-1.amzn2.0.1                                     
+
+Complete!
+-----------------------------Step1: Docker Installation started--------------------------------------
+
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Cleaning repos: amzn2-core amzn2extra-docker amzn2extra-kernel-5.10
+17 metadata files removed
+6 sqlite files removed
+0 metadata files removed
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package docker.x86_64 0:20.10.13-2.amzn2 will be installed
+--> Processing Dependency: runc >= 1.0.0 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: libcgroup >= 0.40.rc1-5.15 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: containerd >= 1.3.2 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: pigz for package: docker-20.10.13-2.amzn2.x86_64
+--> Running transaction check
+---> Package containerd.x86_64 0:1.4.13-3.amzn2 will be installed
+---> Package libcgroup.x86_64 0:0.41-21.amzn2 will be installed
+---> Package pigz.x86_64 0:2.3.4-1.amzn2.0.1 will be installed
+---> Package runc.x86_64 0:1.0.3-3.amzn2 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package        Arch       Version                  Repository             Size
+================================================================================
+Installing:
+ docker         x86_64     20.10.13-2.amzn2         amzn2extra-docker      40 M
+Installing for dependencies:
+ containerd     x86_64     1.4.13-3.amzn2           amzn2extra-docker      23 M
+ libcgroup      x86_64     0.41-21.amzn2            amzn2-core             66 k
+ pigz           x86_64     2.3.4-1.amzn2.0.1        amzn2-core             81 k
+ runc           x86_64     1.0.3-3.amzn2            amzn2extra-docker     3.0 M
+
+Transaction Summary
+================================================================================
+Install  1 Package (+4 Dependent packages)
+
+Total download size: 67 M
+Installed size: 280 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                               46 MB/s |  67 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : runc-1.0.3-3.amzn2.x86_64                                    1/5 
+  Installing : containerd-1.4.13-3.amzn2.x86_64                             2/5 
+  Installing : libcgroup-0.41-21.amzn2.x86_64                               3/5 
+  Installing : pigz-2.3.4-1.amzn2.0.1.x86_64                                4/5 
+  Installing : docker-20.10.13-2.amzn2.x86_64                               5/5 
+  Verifying  : containerd-1.4.13-3.amzn2.x86_64                             1/5 
+  Verifying  : pigz-2.3.4-1.amzn2.0.1.x86_64                                2/5 
+  Verifying  : libcgroup-0.41-21.amzn2.x86_64                               3/5 
+  Verifying  : runc-1.0.3-3.amzn2.x86_64                                    4/5 
+  Verifying  : docker-20.10.13-2.amzn2.x86_64                               5/5 
+
+Installed:
+  docker.x86_64 0:20.10.13-2.amzn2                                              
+
+Dependency Installed:
+  containerd.x86_64 0:1.4.13-3.amzn2      libcgroup.x86_64 0:0.41-21.amzn2     
+  pigz.x86_64 0:2.3.4-1.amzn2.0.1         runc.x86_64 0:1.0.3-3.amzn2          
+
+Complete!
+Installing docker
+  0  ansible2                 available    \
+        [ =2.4.2  =2.4.6  =2.8  =stable ]
+  2  httpd_modules            available    [ =1.0  =stable ]
+  3  memcached1.5             available    \
+        [ =1.5.1  =1.5.16  =1.5.17 ]
+  5  postgresql9.6            available    \
+        [ =9.6.6  =9.6.8  =stable ]
+  6  postgresql10             available    [ =10  =stable ]
+  9  R3.4                     available    [ =3.4.3  =stable ]
+ 10  rust1                    available    \
+        [ =1.22.1  =1.26.0  =1.26.1  =1.27.2  =1.31.0  =1.38.0
+          =stable ]
+ 11  vim                      available    [ =8.0  =stable ]
+ 18  libreoffice              available    \
+        [ =5.0.6.2_15  =5.3.6.1  =stable ]
+ 19  gimp                     available    [ =2.8.22 ]
+ 20  docker=latest            enabled      \
+        [ =17.12.1  =18.03.1  =18.06.1  =18.09.9  =stable ]
+ 21  mate-desktop1.x          available    \
+        [ =1.19.0  =1.20.0  =stable ]
+ 22  GraphicsMagick1.3        available    \
+        [ =1.3.29  =1.3.32  =1.3.34  =stable ]
+ 23  tomcat8.5                available    \
+        [ =8.5.31  =8.5.32  =8.5.38  =8.5.40  =8.5.42  =8.5.50
+          =stable ]
+ 24  epel                     available    [ =7.11  =stable ]
+ 25  testing                  available    [ =1.0  =stable ]
+ 26  ecs                      available    [ =stable ]
+ 27  corretto8                available    \
+        [ =1.8.0_192  =1.8.0_202  =1.8.0_212  =1.8.0_222  =1.8.0_232
+          =1.8.0_242  =stable ]
+ 28  firecracker              available    [ =0.11  =stable ]
+ 29  golang1.11               available    \
+        [ =1.11.3  =1.11.11  =1.11.13  =stable ]
+ 30  squid4                   available    [ =4  =stable ]
+ 32  lustre2.10               available    \
+        [ =2.10.5  =2.10.8  =stable ]
+ 33  java-openjdk11           available    [ =11  =stable ]
+ 34  lynis                    available    [ =stable ]
+ 35  kernel-ng                available    [ =stable ]
+ 36  BCC                      available    [ =0.x  =stable ]
+ 37  mono                     available    [ =5.x  =stable ]
+ 38  nginx1                   available    [ =stable ]
+ 39  ruby2.6                  available    [ =2.6  =stable ]
+ 40  mock                     available    [ =stable ]
+ 41  postgresql11             available    [ =11  =stable ]
+ 42  php7.4                   available    [ =stable ]
+ 43  livepatch                available    [ =stable ]
+ 44  python3.8                available    [ =stable ]
+ 45  haproxy2                 available    [ =stable ]
+ 46  collectd                 available    [ =stable ]
+ 47  aws-nitro-enclaves-cli   available    [ =stable ]
+ 48  R4                       available    [ =stable ]
+  _  kernel-5.4               available    [ =stable ]
+ 50  selinux-ng               available    [ =stable ]
+ 51  php8.0                   available    [ =stable ]
+ 52  tomcat9                  available    [ =stable ]
+ 53  unbound1.13              available    [ =stable ]
+ 54  mariadb10.5              available    [ =stable ]
+ 55  kernel-5.10=latest       enabled      [ =stable ]
+ 56  redis6                   available    [ =stable ]
+ 57  ruby3.0                  available    [ =stable ]
+ 58  postgresql12             available    [ =stable ]
+ 59  postgresql13             available    [ =stable ]
+ 60  mock2                    available    [ =stable ]
+ 61  dnsmasq2.85              available    [ =stable ]
+ 62  kernel-5.15              available    [ =stable ]
+ 63  postgresql14             available    [ =stable ]
+-------------------------------Docker Installation completed. !!......................................
+
+------------------------------Step2: Prometheus Installation started--------------------------------
+
+prometheus-2.7.1.linux-amd64/
+prometheus-2.7.1.linux-amd64/LICENSE
+prometheus-2.7.1.linux-amd64/prometheus.yml
+prometheus-2.7.1.linux-amd64/consoles/
+prometheus-2.7.1.linux-amd64/consoles/node-cpu.html
+prometheus-2.7.1.linux-amd64/consoles/node.html
+prometheus-2.7.1.linux-amd64/consoles/prometheus.html
+prometheus-2.7.1.linux-amd64/consoles/prometheus-overview.html
+prometheus-2.7.1.linux-amd64/consoles/node-overview.html
+prometheus-2.7.1.linux-amd64/consoles/node-disk.html
+prometheus-2.7.1.linux-amd64/consoles/index.html.example
+prometheus-2.7.1.linux-amd64/console_libraries/
+prometheus-2.7.1.linux-amd64/console_libraries/prom.lib
+prometheus-2.7.1.linux-amd64/console_libraries/menu.lib
+prometheus-2.7.1.linux-amd64/NOTICE
+prometheus-2.7.1.linux-amd64/promtool
+prometheus-2.7.1.linux-amd64/prometheus
+--------------------------updating prometheus.service file---------------------------
+
+----------------------------------------Prometheus.service file updation has been completed.--------------------------------------------------
+● prometheus.service - Prometheus
+   Loaded: loaded (/etc/systemd/system/prometheus.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2022-06-29 05:45:56 UTC; 216ms ago
+ Main PID: 10125 (prometheus)
+   CGroup: /system.slice/prometheus.service
+           └─10125 /usr/local/bin/prometheus --config.file /etc/prometheus/prometheus.yml --storage.tsdb.path /var/lib/prometheus/ --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_libraries
+
+Jun 29 05:45:56 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:56.931860749Z caller=main.go:303 build_context="(go=go1.11.5, user=root@f9f82868fc43, date=20190131-11:16:59)"
+Jun 29 05:45:56 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:56.931903098Z caller=main.go:304 host_details="(Linux 5.10.109-104.500.amzn2.x86_64 #1 SMP Wed Apr 13 20:31:43 UTC 2022 x86_64 ip-10-0-2-213.ec2.internal (none))"
+Jun 29 05:45:56 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:56.931930309Z caller=main.go:305 fd_limits="(soft=65535, hard=65535)"
+Jun 29 05:45:56 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:56.931952282Z caller=main.go:306 vm_limits="(soft=unlimited, hard=unlimited)"
+Jun 29 05:45:56 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:56.93990736Z caller=main.go:620 msg="Starting TSDB ..."
+Jun 29 05:45:56 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:56.964966352Z caller=web.go:416 component=web msg="Start listening for connections" address=0.0.0.0:9090
+Jun 29 05:45:57 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:57.018045481Z caller=main.go:635 msg="TSDB started"
+Jun 29 05:45:57 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:57.020185349Z caller=main.go:695 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+Jun 29 05:45:57 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:57.022380566Z caller=main.go:722 msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml
+Jun 29 05:45:57 ip-10-0-2-213.ec2.internal prometheus[10125]: level=info ts=2022-06-29T05:45:57.026582643Z caller=main.go:589 msg="Server is ready to receive web requests."
+----------------------------------------Prometheus Installation completed. !!-------------------------------------------------------------------
+2022-06-29 11:15:47.331359
+Sucessfull!! Installation Setup has been completed.
+2022-06-29 11:15:47.996602
+
+Instance details are below: 
+
+InstanceID is :  i-045cf87d5c9b28c7f
+InstanceType is : t2.micro
+PublicIP_address is : 50.17.97.166
+
+29 June,2022 11:24:21 | Connecting  to an Instance.......
+29 June,2022 11:24:42 | Instance Connected Sucessfully !!
+29 June,2022 11:24:42 | 
+Starting Installation setup on instance ...
+29 June,2022 11:25:26 | Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package curl.x86_64 0:7.79.1-1.amzn2.0.1 will be updated
+---> Package curl.x86_64 0:7.79.1-2.amzn2.0.1 will be an update
+---> Package dracut.x86_64 0:033-535.amzn2.1.5 will be updated
+---> Package dracut.x86_64 0:033-535.amzn2.1.6 will be an update
+---> Package dracut-config-generic.x86_64 0:033-535.amzn2.1.5 will be updated
+---> Package dracut-config-generic.x86_64 0:033-535.amzn2.1.6 will be an update
+---> Package iproute.x86_64 0:5.10.0-2.amzn2.0.1 will be updated
+---> Package iproute.x86_64 0:5.10.0-2.amzn2.0.2 will be an update
+---> Package kernel.x86_64 0:5.10.118-111.515.amzn2 will be installed
+---> Package kernel-tools.x86_64 0:5.10.109-104.500.amzn2 will be updated
+---> Package kernel-tools.x86_64 0:5.10.118-111.515.amzn2 will be an update
+---> Package libcurl.x86_64 0:7.79.1-1.amzn2.0.1 will be updated
+---> Package libcurl.x86_64 0:7.79.1-2.amzn2.0.1 will be an update
+---> Package libgcc.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libgcc.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libgomp.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libgomp.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libstdc++.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libstdc++.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libtiff.x86_64 0:4.0.3-35.amzn2.0.1 will be updated
+---> Package libtiff.x86_64 0:4.0.3-35.amzn2.0.2 will be an update
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.0.11 will be updated
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.0.12 will be an update
+---> Package openldap.x86_64 0:2.4.44-23.amzn2.0.3 will be updated
+---> Package openldap.x86_64 0:2.4.44-23.amzn2.0.4 will be an update
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.2 will be updated
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.3 will be an update
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.2 will be updated
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.3 will be an update
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package systemd.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package systemd-libs.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd-libs.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package systemd-sysv.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd-sysv.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package vim-common.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-common.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-data.noarch 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-data.noarch 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-enhanced.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-enhanced.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-filesystem.noarch 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-filesystem.noarch 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-minimal.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-minimal.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch   Version                Repository              Size
+================================================================================
+Installing:
+ kernel              x86_64 5.10.118-111.515.amzn2 amzn2extra-kernel-5.10  31 M
+Updating:
+ curl                x86_64 7.79.1-2.amzn2.0.1     amzn2-core             359 k
+ dracut              x86_64 033-535.amzn2.1.6      amzn2-core             325 k
+ dracut-config-generic
+                     x86_64 033-535.amzn2.1.6      amzn2-core              57 k
+ iproute             x86_64 5.10.0-2.amzn2.0.2     amzn2-core             649 k
+ kernel-tools        x86_64 5.10.118-111.515.amzn2 amzn2extra-kernel-5.10 177 k
+ libcurl             x86_64 7.79.1-2.amzn2.0.1     amzn2-core             321 k
+ libgcc              x86_64 7.3.1-15.amzn2         amzn2-core              98 k
+ libgomp             x86_64 7.3.1-15.amzn2         amzn2-core             204 k
+ libstdc++           x86_64 7.3.1-15.amzn2         amzn2-core             445 k
+ libtiff             x86_64 4.0.3-35.amzn2.0.2     amzn2-core             173 k
+ microcode_ctl       x86_64 2:2.1-47.amzn2.0.12    amzn2-core             298 k
+ openldap            x86_64 2.4.44-23.amzn2.0.4    amzn2-core             351 k
+ openssl             x86_64 1:1.0.2k-24.amzn2.0.3  amzn2-core             496 k
+ openssl-libs        x86_64 1:1.0.2k-24.amzn2.0.3  amzn2-core             1.2 M
+ python              x86_64 2.7.18-1.amzn2.0.5     amzn2-core              93 k
+ python-devel        x86_64 2.7.18-1.amzn2.0.5     amzn2-core             403 k
+ python-libs         x86_64 2.7.18-1.amzn2.0.5     amzn2-core             7.5 M
+ systemd             x86_64 219-78.amzn2.0.18      amzn2-core             5.0 M
+ systemd-libs        x86_64 219-78.amzn2.0.18      amzn2-core             408 k
+ systemd-sysv        x86_64 219-78.amzn2.0.18      amzn2-core              98 k
+ vim-common          x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             7.5 M
+ vim-data            noarch 2:8.2.4857-1.amzn2.0.1 amzn2-core              75 k
+ vim-enhanced        x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             1.6 M
+ vim-filesystem      noarch 2:8.2.4857-1.amzn2.0.1 amzn2-core              70 k
+ vim-minimal         x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             686 k
+
+Transaction Summary
+================================================================================
+Install   1 Package
+Upgrade  25 Packages
+
+Total download size: 60 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+--------------------------------------------------------------------------------
+Total                                               35 MB/s |  60 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : 1:openssl-libs-1.0.2k-24.amzn2.0.3.x86_64                   1/51 
+  Updating   : libgcc-7.3.1-15.amzn2.x86_64                                2/51 
+  Updating   : openldap-2.4.44-23.amzn2.0.4.x86_64                         3/51 
+  Updating   : libcurl-7.79.1-2.amzn2.0.1.x86_64                           4/51 
+  Updating   : python-libs-2.7.18-1.amzn2.0.5.x86_64                       5/51 
+  Updating   : python-2.7.18-1.amzn2.0.5.x86_64                            6/51 
+  Updating   : 2:vim-data-8.2.4857-1.amzn2.0.1.noarch                      7/51 
+  Updating   : libstdc++-7.3.1-15.amzn2.x86_64                             8/51 
+  Updating   : systemd-libs-219-78.amzn2.0.18.x86_64                       9/51 
+  Updating   : systemd-219-78.amzn2.0.18.x86_64                           10/51 
+  Updating   : dracut-033-535.amzn2.1.6.x86_64                            11/51 
+  Updating   : 2:microcode_ctl-2.1-47.amzn2.0.12.x86_64                   12/51 
+  Updating   : 2:vim-filesystem-8.2.4857-1.amzn2.0.1.noarch               13/51 
+  Updating   : 2:vim-common-8.2.4857-1.amzn2.0.1.x86_64                   14/51 
+  Updating   : 2:vim-enhanced-8.2.4857-1.amzn2.0.1.x86_64                 15/51 
+  Installing : kernel-5.10.118-111.515.amzn2.x86_64                       16/51 
+  Updating   : dracut-config-generic-033-535.amzn2.1.6.x86_64             17/51 
+  Updating   : systemd-sysv-219-78.amzn2.0.18.x86_64                      18/51 
+  Updating   : libtiff-4.0.3-35.amzn2.0.2.x86_64                          19/51 
+  Updating   : 2:vim-minimal-8.2.4857-1.amzn2.0.1.x86_64                  20/51 
+  Updating   : python-devel-2.7.18-1.amzn2.0.5.x86_64                     21/51 
+  Updating   : curl-7.79.1-2.amzn2.0.1.x86_64                             22/51 
+  Updating   : 1:openssl-1.0.2k-24.amzn2.0.3.x86_64                       23/51 
+  Updating   : kernel-tools-5.10.118-111.515.amzn2.x86_64                 24/51 
+  Updating   : iproute-5.10.0-2.amzn2.0.2.x86_64                          25/51 
+  Updating   : libgomp-7.3.1-15.amzn2.x86_64                              26/51 
+  Cleanup    : python-devel-2.7.18-1.amzn2.0.4.x86_64                     27/51 
+  Cleanup    : curl-7.79.1-1.amzn2.0.1.x86_64                             28/51 
+  Cleanup    : systemd-sysv-219-78.amzn2.0.16.x86_64                      29/51 
+  Cleanup    : libtiff-4.0.3-35.amzn2.0.1.x86_64                          30/51 
+  Cleanup    : dracut-config-generic-033-535.amzn2.1.5.x86_64             31/51 
+  Cleanup    : dracut-033-535.amzn2.1.5.x86_64                            32/51 
+  Cleanup    : libstdc++-7.3.1-14.amzn2.x86_64                            33/51 
+  Cleanup    : python-2.7.18-1.amzn2.0.4.x86_64                           34/51 
+  Cleanup    : python-libs-2.7.18-1.amzn2.0.4.x86_64                      35/51 
+  Cleanup    : 2:vim-enhanced-8.2.4428-1.amzn2.0.3.x86_64                 36/51 
+  Cleanup    : 2:vim-common-8.2.4428-1.amzn2.0.3.x86_64                   37/51 
+  Cleanup    : 1:openssl-1.0.2k-24.amzn2.0.2.x86_64                       38/51 
+  Cleanup    : 2:vim-minimal-8.2.4428-1.amzn2.0.3.x86_64                  39/51 
+  Cleanup    : 2:microcode_ctl-2.1-47.amzn2.0.11.x86_64                   40/51 
+  Cleanup    : 2:vim-data-8.2.4428-1.amzn2.0.3.noarch                     41/51 
+  Cleanup    : 2:vim-filesystem-8.2.4428-1.amzn2.0.3.noarch               42/51 
+  Cleanup    : systemd-219-78.amzn2.0.16.x86_64                           43/51 
+  Cleanup    : libcurl-7.79.1-1.amzn2.0.1.x86_64                          44/51 
+  Cleanup    : openldap-2.4.44-23.amzn2.0.3.x86_64                        45/51 
+  Cleanup    : systemd-libs-219-78.amzn2.0.16.x86_64                      46/51 
+  Cleanup    : libgcc-7.3.1-14.amzn2.x86_64                               47/51 
+  Cleanup    : 1:openssl-libs-1.0.2k-24.amzn2.0.2.x86_64                  48/51 
+  Cleanup    : kernel-tools-5.10.109-104.500.amzn2.x86_64                 49/51 
+  Cleanup    : iproute-5.10.0-2.amzn2.0.1.x86_64                          50/51 
+  Cleanup    : libgomp-7.3.1-14.amzn2.x86_64                              51/51 
+  Verifying  : libtiff-4.0.3-35.amzn2.0.2.x86_64                           1/51 
+  Verifying  : libgomp-7.3.1-15.amzn2.x86_64                               2/51 
+  Verifying  : dracut-config-generic-033-535.amzn2.1.6.x86_64              3/51 
+  Verifying  : 2:vim-data-8.2.4857-1.amzn2.0.1.noarch                      4/51 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.0.12.x86_64                    5/51 
+  Verifying  : libcurl-7.79.1-2.amzn2.0.1.x86_64                           6/51 
+  Verifying  : python-2.7.18-1.amzn2.0.5.x86_64                            7/51 
+  Verifying  : openldap-2.4.44-23.amzn2.0.4.x86_64                         8/51 
+  Verifying  : libstdc++-7.3.1-15.amzn2.x86_64                             9/51 
+  Verifying  : systemd-libs-219-78.amzn2.0.18.x86_64                      10/51 
+  Verifying  : systemd-219-78.amzn2.0.18.x86_64                           11/51 
+  Verifying  : kernel-5.10.118-111.515.amzn2.x86_64                       12/51 
+  Verifying  : 2:vim-filesystem-8.2.4857-1.amzn2.0.1.noarch               13/51 
+  Verifying  : 2:vim-minimal-8.2.4857-1.amzn2.0.1.x86_64                  14/51 
+  Verifying  : 2:vim-common-8.2.4857-1.amzn2.0.1.x86_64                   15/51 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.3.x86_64                       16/51 
+  Verifying  : iproute-5.10.0-2.amzn2.0.2.x86_64                          17/51 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.5.x86_64                     18/51 
+  Verifying  : kernel-tools-5.10.118-111.515.amzn2.x86_64                 19/51 
+  Verifying  : libgcc-7.3.1-15.amzn2.x86_64                               20/51 
+  Verifying  : curl-7.79.1-2.amzn2.0.1.x86_64                             21/51 
+  Verifying  : 2:vim-enhanced-8.2.4857-1.amzn2.0.1.x86_64                 22/51 
+  Verifying  : dracut-033-535.amzn2.1.6.x86_64                            23/51 
+  Verifying  : systemd-sysv-219-78.amzn2.0.18.x86_64                      24/51 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.3.x86_64                  25/51 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.5.x86_64                      26/51 
+  Verifying  : iproute-5.10.0-2.amzn2.0.1.x86_64                          27/51 
+  Verifying  : 2:vim-minimal-8.2.4428-1.amzn2.0.3.x86_64                  28/51 
+  Verifying  : python-2.7.18-1.amzn2.0.4.x86_64                           29/51 
+  Verifying  : curl-7.79.1-1.amzn2.0.1.x86_64                             30/51 
+  Verifying  : dracut-config-generic-033-535.amzn2.1.5.x86_64             31/51 
+  Verifying  : libcurl-7.79.1-1.amzn2.0.1.x86_64                          32/51 
+  Verifying  : 2:vim-data-8.2.4428-1.amzn2.0.3.noarch                     33/51 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.4.x86_64                     34/51 
+  Verifying  : 2:vim-filesystem-8.2.4428-1.amzn2.0.3.noarch               35/51 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.2.x86_64                       36/51 
+  Verifying  : 2:vim-common-8.2.4428-1.amzn2.0.3.x86_64                   37/51 
+  Verifying  : openldap-2.4.44-23.amzn2.0.3.x86_64                        38/51 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.0.11.x86_64                   39/51 
+  Verifying  : dracut-033-535.amzn2.1.5.x86_64                            40/51 
+  Verifying  : libstdc++-7.3.1-14.amzn2.x86_64                            41/51 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.2.x86_64                  42/51 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.4.x86_64                      43/51 
+  Verifying  : systemd-219-78.amzn2.0.16.x86_64                           44/51 
+  Verifying  : systemd-sysv-219-78.amzn2.0.16.x86_64                      45/51 
+  Verifying  : kernel-tools-5.10.109-104.500.amzn2.x86_64                 46/51 
+  Verifying  : libgomp-7.3.1-14.amzn2.x86_64                              47/51 
+  Verifying  : 2:vim-enhanced-8.2.4428-1.amzn2.0.3.x86_64                 48/51 
+  Verifying  : libgcc-7.3.1-14.amzn2.x86_64                               49/51 
+  Verifying  : libtiff-4.0.3-35.amzn2.0.1.x86_64                          50/51 
+  Verifying  : systemd-libs-219-78.amzn2.0.16.x86_64                      51/51 
+
+Installed:
+  kernel.x86_64 0:5.10.118-111.515.amzn2                                        
+
+Updated:
+  curl.x86_64 0:7.79.1-2.amzn2.0.1                                              
+  dracut.x86_64 0:033-535.amzn2.1.6                                             
+  dracut-config-generic.x86_64 0:033-535.amzn2.1.6                              
+  iproute.x86_64 0:5.10.0-2.amzn2.0.2                                           
+  kernel-tools.x86_64 0:5.10.118-111.515.amzn2                                  
+  libcurl.x86_64 0:7.79.1-2.amzn2.0.1                                           
+  libgcc.x86_64 0:7.3.1-15.amzn2                                                
+  libgomp.x86_64 0:7.3.1-15.amzn2                                               
+  libstdc++.x86_64 0:7.3.1-15.amzn2                                             
+  libtiff.x86_64 0:4.0.3-35.amzn2.0.2                                           
+  microcode_ctl.x86_64 2:2.1-47.amzn2.0.12                                      
+  openldap.x86_64 0:2.4.44-23.amzn2.0.4                                         
+  openssl.x86_64 1:1.0.2k-24.amzn2.0.3                                          
+  openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.3                                     
+  python.x86_64 0:2.7.18-1.amzn2.0.5                                            
+  python-devel.x86_64 0:2.7.18-1.amzn2.0.5                                      
+  python-libs.x86_64 0:2.7.18-1.amzn2.0.5                                       
+  systemd.x86_64 0:219-78.amzn2.0.18                                            
+  systemd-libs.x86_64 0:219-78.amzn2.0.18                                       
+  systemd-sysv.x86_64 0:219-78.amzn2.0.18                                       
+  vim-common.x86_64 2:8.2.4857-1.amzn2.0.1                                      
+  vim-data.noarch 2:8.2.4857-1.amzn2.0.1                                        
+  vim-enhanced.x86_64 2:8.2.4857-1.amzn2.0.1                                    
+  vim-filesystem.noarch 2:8.2.4857-1.amzn2.0.1                                  
+  vim-minimal.x86_64 2:8.2.4857-1.amzn2.0.1                                     
+
+Complete!
+-----------------------------Step1: Docker Installation started--------------------------------------
+
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Cleaning repos: amzn2-core amzn2extra-docker amzn2extra-kernel-5.10
+17 metadata files removed
+6 sqlite files removed
+0 metadata files removed
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package docker.x86_64 0:20.10.13-2.amzn2 will be installed
+--> Processing Dependency: runc >= 1.0.0 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: libcgroup >= 0.40.rc1-5.15 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: containerd >= 1.3.2 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: pigz for package: docker-20.10.13-2.amzn2.x86_64
+--> Running transaction check
+---> Package containerd.x86_64 0:1.4.13-3.amzn2 will be installed
+---> Package libcgroup.x86_64 0:0.41-21.amzn2 will be installed
+---> Package pigz.x86_64 0:2.3.4-1.amzn2.0.1 will be installed
+---> Package runc.x86_64 0:1.0.3-3.amzn2 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package        Arch       Version                  Repository             Size
+================================================================================
+Installing:
+ docker         x86_64     20.10.13-2.amzn2         amzn2extra-docker      40 M
+Installing for dependencies:
+ containerd     x86_64     1.4.13-3.amzn2           amzn2extra-docker      23 M
+ libcgroup      x86_64     0.41-21.amzn2            amzn2-core             66 k
+ pigz           x86_64     2.3.4-1.amzn2.0.1        amzn2-core             81 k
+ runc           x86_64     1.0.3-3.amzn2            amzn2extra-docker     3.0 M
+
+Transaction Summary
+================================================================================
+Install  1 Package (+4 Dependent packages)
+
+Total download size: 67 M
+Installed size: 280 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                               61 MB/s |  67 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : runc-1.0.3-3.amzn2.x86_64                                    1/5 
+  Installing : containerd-1.4.13-3.amzn2.x86_64                             2/5 
+  Installing : libcgroup-0.41-21.amzn2.x86_64                               3/5 
+  Installing : pigz-2.3.4-1.amzn2.0.1.x86_64                                4/5 
+  Installing : docker-20.10.13-2.amzn2.x86_64                               5/5 
+  Verifying  : containerd-1.4.13-3.amzn2.x86_64                             1/5 
+  Verifying  : pigz-2.3.4-1.amzn2.0.1.x86_64                                2/5 
+  Verifying  : libcgroup-0.41-21.amzn2.x86_64                               3/5 
+  Verifying  : runc-1.0.3-3.amzn2.x86_64                                    4/5 
+  Verifying  : docker-20.10.13-2.amzn2.x86_64                               5/5 
+
+Installed:
+  docker.x86_64 0:20.10.13-2.amzn2                                              
+
+Dependency Installed:
+  containerd.x86_64 0:1.4.13-3.amzn2      libcgroup.x86_64 0:0.41-21.amzn2     
+  pigz.x86_64 0:2.3.4-1.amzn2.0.1         runc.x86_64 0:1.0.3-3.amzn2          
+
+Complete!
+Installing docker
+  0  ansible2                 available    \
+        [ =2.4.2  =2.4.6  =2.8  =stable ]
+  2  httpd_modules            available    [ =1.0  =stable ]
+  3  memcached1.5             available    \
+        [ =1.5.1  =1.5.16  =1.5.17 ]
+  5  postgresql9.6            available    \
+        [ =9.6.6  =9.6.8  =stable ]
+  6  postgresql10             available    [ =10  =stable ]
+  9  R3.4                     available    [ =3.4.3  =stable ]
+ 10  rust1                    available    \
+        [ =1.22.1  =1.26.0  =1.26.1  =1.27.2  =1.31.0  =1.38.0
+          =stable ]
+ 11  vim                      available    [ =8.0  =stable ]
+ 18  libreoffice              available    \
+        [ =5.0.6.2_15  =5.3.6.1  =stable ]
+ 19  gimp                     available    [ =2.8.22 ]
+ 20  docker=latest            enabled      \
+        [ =17.12.1  =18.03.1  =18.06.1  =18.09.9  =stable ]
+ 21  mate-desktop1.x          available    \
+        [ =1.19.0  =1.20.0  =stable ]
+ 22  GraphicsMagick1.3        available    \
+        [ =1.3.29  =1.3.32  =1.3.34  =stable ]
+ 23  tomcat8.5                available    \
+        [ =8.5.31  =8.5.32  =8.5.38  =8.5.40  =8.5.42  =8.5.50
+          =stable ]
+ 24  epel                     available    [ =7.11  =stable ]
+ 25  testing                  available    [ =1.0  =stable ]
+ 26  ecs                      available    [ =stable ]
+ 27  corretto8                available    \
+        [ =1.8.0_192  =1.8.0_202  =1.8.0_212  =1.8.0_222  =1.8.0_232
+          =1.8.0_242  =stable ]
+ 28  firecracker              available    [ =0.11  =stable ]
+ 29  golang1.11               available    \
+        [ =1.11.3  =1.11.11  =1.11.13  =stable ]
+ 30  squid4                   available    [ =4  =stable ]
+ 32  lustre2.10               available    \
+        [ =2.10.5  =2.10.8  =stable ]
+ 33  java-openjdk11           available    [ =11  =stable ]
+ 34  lynis                    available    [ =stable ]
+ 35  kernel-ng                available    [ =stable ]
+ 36  BCC                      available    [ =0.x  =stable ]
+ 37  mono                     available    [ =5.x  =stable ]
+ 38  nginx1                   available    [ =stable ]
+ 39  ruby2.6                  available    [ =2.6  =stable ]
+ 40  mock                     available    [ =stable ]
+ 41  postgresql11             available    [ =11  =stable ]
+ 42  php7.4                   available    [ =stable ]
+ 43  livepatch                available    [ =stable ]
+ 44  python3.8                available    [ =stable ]
+ 45  haproxy2                 available    [ =stable ]
+ 46  collectd                 available    [ =stable ]
+ 47  aws-nitro-enclaves-cli   available    [ =stable ]
+ 48  R4                       available    [ =stable ]
+  _  kernel-5.4               available    [ =stable ]
+ 50  selinux-ng               available    [ =stable ]
+ 51  php8.0                   available    [ =stable ]
+ 52  tomcat9                  available    [ =stable ]
+ 53  unbound1.13              available    [ =stable ]
+ 54  mariadb10.5              available    [ =stable ]
+ 55  kernel-5.10=latest       enabled      [ =stable ]
+ 56  redis6                   available    [ =stable ]
+ 57  ruby3.0                  available    [ =stable ]
+ 58  postgresql12             available    [ =stable ]
+ 59  postgresql13             available    [ =stable ]
+ 60  mock2                    available    [ =stable ]
+ 61  dnsmasq2.85              available    [ =stable ]
+ 62  kernel-5.15              available    [ =stable ]
+ 63  postgresql14             available    [ =stable ]
+-------------------------------Docker Installation completed. !!......................................
+
+------------------------------Step2: Prometheus Installation started--------------------------------
+
+prometheus-2.7.1.linux-amd64/
+prometheus-2.7.1.linux-amd64/LICENSE
+prometheus-2.7.1.linux-amd64/prometheus.yml
+prometheus-2.7.1.linux-amd64/consoles/
+prometheus-2.7.1.linux-amd64/consoles/node-cpu.html
+prometheus-2.7.1.linux-amd64/consoles/node.html
+prometheus-2.7.1.linux-amd64/consoles/prometheus.html
+prometheus-2.7.1.linux-amd64/consoles/prometheus-overview.html
+prometheus-2.7.1.linux-amd64/consoles/node-overview.html
+prometheus-2.7.1.linux-amd64/consoles/node-disk.html
+prometheus-2.7.1.linux-amd64/consoles/index.html.example
+prometheus-2.7.1.linux-amd64/console_libraries/
+prometheus-2.7.1.linux-amd64/console_libraries/prom.lib
+prometheus-2.7.1.linux-amd64/console_libraries/menu.lib
+prometheus-2.7.1.linux-amd64/NOTICE
+prometheus-2.7.1.linux-amd64/promtool
+prometheus-2.7.1.linux-amd64/prometheus
+--------------------------updating prometheus.service file---------------------------
+
+----------------------------------------Prometheus.service file updation has been completed.--------------------------------------------------
+● prometheus.service - Prometheus
+   Loaded: loaded (/etc/systemd/system/prometheus.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2022-06-29 05:55:35 UTC; 222ms ago
+ Main PID: 10129 (prometheus)
+   CGroup: /system.slice/prometheus.service
+           └─10129 /usr/local/bin/prometheus --config.file /etc/prometheus/prometheus.yml --storage.tsdb.path /var/lib/prometheus/ --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_libraries
+
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.035413193Z caller=main.go:303 build_context="(go=go1.11.5, user=root@f9f82868fc43, date=20190131-11:16:59)"
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.035461918Z caller=main.go:304 host_details="(Linux 5.10.109-104.500.amzn2.x86_64 #1 SMP Wed Apr 13 20:31:43 UTC 2022 x86_64 ip-10-0-6-251.ec2.internal (none))"
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.035489225Z caller=main.go:305 fd_limits="(soft=65535, hard=65535)"
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.035510985Z caller=main.go:306 vm_limits="(soft=unlimited, hard=unlimited)"
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.056212827Z caller=main.go:620 msg="Starting TSDB ..."
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.091726881Z caller=web.go:416 component=web msg="Start listening for connections" address=0.0.0.0:9090
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.136069667Z caller=main.go:635 msg="TSDB started"
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.136735375Z caller=main.go:695 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.138934709Z caller=main.go:722 msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml
+Jun 29 05:55:36 ip-10-0-6-251.ec2.internal prometheus[10129]: level=info ts=2022-06-29T05:55:36.14382354Z caller=main.go:589 msg="Server is ready to receive web requests."
+----------------------------------------Prometheus Installation completed. !!-------------------------------------------------------------------
+29 June,2022 11:25:26 | 
+Sucessfull!! Installation Setup has been completed.
+29 June,2022 11:25:28 | 
+
+Instance details are below: 
+
+InstanceID is :  i-00fcf186dc8997dee
+InstanceType is : t2.micro
+PublicIP_address is : 18.234.62.16
+
+
+29 June,2022 11:31:01 | Connecting  to an Instance.......
+
+29 June,2022 11:31:20 | Instance Connected Sucessfully !!
+
+29 June,2022 11:31:20 | 
+Starting Installation setup on instance ...
+
+29 June,2022 11:32:05 | Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package curl.x86_64 0:7.79.1-1.amzn2.0.1 will be updated
+---> Package curl.x86_64 0:7.79.1-2.amzn2.0.1 will be an update
+---> Package dracut.x86_64 0:033-535.amzn2.1.5 will be updated
+---> Package dracut.x86_64 0:033-535.amzn2.1.6 will be an update
+---> Package dracut-config-generic.x86_64 0:033-535.amzn2.1.5 will be updated
+---> Package dracut-config-generic.x86_64 0:033-535.amzn2.1.6 will be an update
+---> Package iproute.x86_64 0:5.10.0-2.amzn2.0.1 will be updated
+---> Package iproute.x86_64 0:5.10.0-2.amzn2.0.2 will be an update
+---> Package kernel.x86_64 0:5.10.118-111.515.amzn2 will be installed
+---> Package kernel-tools.x86_64 0:5.10.109-104.500.amzn2 will be updated
+---> Package kernel-tools.x86_64 0:5.10.118-111.515.amzn2 will be an update
+---> Package libcurl.x86_64 0:7.79.1-1.amzn2.0.1 will be updated
+---> Package libcurl.x86_64 0:7.79.1-2.amzn2.0.1 will be an update
+---> Package libgcc.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libgcc.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libgomp.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libgomp.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libstdc++.x86_64 0:7.3.1-14.amzn2 will be updated
+---> Package libstdc++.x86_64 0:7.3.1-15.amzn2 will be an update
+---> Package libtiff.x86_64 0:4.0.3-35.amzn2.0.1 will be updated
+---> Package libtiff.x86_64 0:4.0.3-35.amzn2.0.2 will be an update
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.0.11 will be updated
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.0.12 will be an update
+---> Package openldap.x86_64 0:2.4.44-23.amzn2.0.3 will be updated
+---> Package openldap.x86_64 0:2.4.44-23.amzn2.0.4 will be an update
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.2 will be updated
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.3 will be an update
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.2 will be updated
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.3 will be an update
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.4 will be updated
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.5 will be an update
+---> Package systemd.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package systemd-libs.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd-libs.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package systemd-sysv.x86_64 0:219-78.amzn2.0.16 will be updated
+---> Package systemd-sysv.x86_64 0:219-78.amzn2.0.18 will be an update
+---> Package vim-common.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-common.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-data.noarch 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-data.noarch 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-enhanced.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-enhanced.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-filesystem.noarch 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-filesystem.noarch 2:8.2.4857-1.amzn2.0.1 will be an update
+---> Package vim-minimal.x86_64 2:8.2.4428-1.amzn2.0.3 will be updated
+---> Package vim-minimal.x86_64 2:8.2.4857-1.amzn2.0.1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch   Version                Repository              Size
+================================================================================
+Installing:
+ kernel              x86_64 5.10.118-111.515.amzn2 amzn2extra-kernel-5.10  31 M
+Updating:
+ curl                x86_64 7.79.1-2.amzn2.0.1     amzn2-core             359 k
+ dracut              x86_64 033-535.amzn2.1.6      amzn2-core             325 k
+ dracut-config-generic
+                     x86_64 033-535.amzn2.1.6      amzn2-core              57 k
+ iproute             x86_64 5.10.0-2.amzn2.0.2     amzn2-core             649 k
+ kernel-tools        x86_64 5.10.118-111.515.amzn2 amzn2extra-kernel-5.10 177 k
+ libcurl             x86_64 7.79.1-2.amzn2.0.1     amzn2-core             321 k
+ libgcc              x86_64 7.3.1-15.amzn2         amzn2-core              98 k
+ libgomp             x86_64 7.3.1-15.amzn2         amzn2-core             204 k
+ libstdc++           x86_64 7.3.1-15.amzn2         amzn2-core             445 k
+ libtiff             x86_64 4.0.3-35.amzn2.0.2     amzn2-core             173 k
+ microcode_ctl       x86_64 2:2.1-47.amzn2.0.12    amzn2-core             298 k
+ openldap            x86_64 2.4.44-23.amzn2.0.4    amzn2-core             351 k
+ openssl             x86_64 1:1.0.2k-24.amzn2.0.3  amzn2-core             496 k
+ openssl-libs        x86_64 1:1.0.2k-24.amzn2.0.3  amzn2-core             1.2 M
+ python              x86_64 2.7.18-1.amzn2.0.5     amzn2-core              93 k
+ python-devel        x86_64 2.7.18-1.amzn2.0.5     amzn2-core             403 k
+ python-libs         x86_64 2.7.18-1.amzn2.0.5     amzn2-core             7.5 M
+ systemd             x86_64 219-78.amzn2.0.18      amzn2-core             5.0 M
+ systemd-libs        x86_64 219-78.amzn2.0.18      amzn2-core             408 k
+ systemd-sysv        x86_64 219-78.amzn2.0.18      amzn2-core              98 k
+ vim-common          x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             7.5 M
+ vim-data            noarch 2:8.2.4857-1.amzn2.0.1 amzn2-core              75 k
+ vim-enhanced        x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             1.6 M
+ vim-filesystem      noarch 2:8.2.4857-1.amzn2.0.1 amzn2-core              70 k
+ vim-minimal         x86_64 2:8.2.4857-1.amzn2.0.1 amzn2-core             686 k
+
+Transaction Summary
+================================================================================
+Install   1 Package
+Upgrade  25 Packages
+
+Total download size: 60 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+--------------------------------------------------------------------------------
+Total                                               58 MB/s |  60 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : 1:openssl-libs-1.0.2k-24.amzn2.0.3.x86_64                   1/51 
+  Updating   : libgcc-7.3.1-15.amzn2.x86_64                                2/51 
+  Updating   : openldap-2.4.44-23.amzn2.0.4.x86_64                         3/51 
+  Updating   : libcurl-7.79.1-2.amzn2.0.1.x86_64                           4/51 
+  Updating   : python-libs-2.7.18-1.amzn2.0.5.x86_64                       5/51 
+  Updating   : python-2.7.18-1.amzn2.0.5.x86_64                            6/51 
+  Updating   : 2:vim-data-8.2.4857-1.amzn2.0.1.noarch                      7/51 
+  Updating   : libstdc++-7.3.1-15.amzn2.x86_64                             8/51 
+  Updating   : systemd-libs-219-78.amzn2.0.18.x86_64                       9/51 
+  Updating   : systemd-219-78.amzn2.0.18.x86_64                           10/51 
+  Updating   : dracut-033-535.amzn2.1.6.x86_64                            11/51 
+  Updating   : 2:microcode_ctl-2.1-47.amzn2.0.12.x86_64                   12/51 
+  Updating   : 2:vim-filesystem-8.2.4857-1.amzn2.0.1.noarch               13/51 
+  Updating   : 2:vim-common-8.2.4857-1.amzn2.0.1.x86_64                   14/51 
+  Updating   : 2:vim-enhanced-8.2.4857-1.amzn2.0.1.x86_64                 15/51 
+  Installing : kernel-5.10.118-111.515.amzn2.x86_64                       16/51 
+  Updating   : dracut-config-generic-033-535.amzn2.1.6.x86_64             17/51 
+  Updating   : systemd-sysv-219-78.amzn2.0.18.x86_64                      18/51 
+  Updating   : libtiff-4.0.3-35.amzn2.0.2.x86_64                          19/51 
+  Updating   : 2:vim-minimal-8.2.4857-1.amzn2.0.1.x86_64                  20/51 
+  Updating   : python-devel-2.7.18-1.amzn2.0.5.x86_64                     21/51 
+  Updating   : curl-7.79.1-2.amzn2.0.1.x86_64                             22/51 
+  Updating   : 1:openssl-1.0.2k-24.amzn2.0.3.x86_64                       23/51 
+  Updating   : kernel-tools-5.10.118-111.515.amzn2.x86_64                 24/51 
+  Updating   : iproute-5.10.0-2.amzn2.0.2.x86_64                          25/51 
+  Updating   : libgomp-7.3.1-15.amzn2.x86_64                              26/51 
+  Cleanup    : python-devel-2.7.18-1.amzn2.0.4.x86_64                     27/51 
+  Cleanup    : curl-7.79.1-1.amzn2.0.1.x86_64                             28/51 
+  Cleanup    : systemd-sysv-219-78.amzn2.0.16.x86_64                      29/51 
+  Cleanup    : libtiff-4.0.3-35.amzn2.0.1.x86_64                          30/51 
+  Cleanup    : dracut-config-generic-033-535.amzn2.1.5.x86_64             31/51 
+  Cleanup    : dracut-033-535.amzn2.1.5.x86_64                            32/51 
+  Cleanup    : libstdc++-7.3.1-14.amzn2.x86_64                            33/51 
+  Cleanup    : python-2.7.18-1.amzn2.0.4.x86_64                           34/51 
+  Cleanup    : python-libs-2.7.18-1.amzn2.0.4.x86_64                      35/51 
+  Cleanup    : 2:vim-enhanced-8.2.4428-1.amzn2.0.3.x86_64                 36/51 
+  Cleanup    : 2:vim-common-8.2.4428-1.amzn2.0.3.x86_64                   37/51 
+  Cleanup    : 1:openssl-1.0.2k-24.amzn2.0.2.x86_64                       38/51 
+  Cleanup    : 2:vim-minimal-8.2.4428-1.amzn2.0.3.x86_64                  39/51 
+  Cleanup    : 2:microcode_ctl-2.1-47.amzn2.0.11.x86_64                   40/51 
+  Cleanup    : 2:vim-data-8.2.4428-1.amzn2.0.3.noarch                     41/51 
+  Cleanup    : 2:vim-filesystem-8.2.4428-1.amzn2.0.3.noarch               42/51 
+  Cleanup    : systemd-219-78.amzn2.0.16.x86_64                           43/51 
+  Cleanup    : libcurl-7.79.1-1.amzn2.0.1.x86_64                          44/51 
+  Cleanup    : openldap-2.4.44-23.amzn2.0.3.x86_64                        45/51 
+  Cleanup    : systemd-libs-219-78.amzn2.0.16.x86_64                      46/51 
+  Cleanup    : libgcc-7.3.1-14.amzn2.x86_64                               47/51 
+  Cleanup    : 1:openssl-libs-1.0.2k-24.amzn2.0.2.x86_64                  48/51 
+  Cleanup    : kernel-tools-5.10.109-104.500.amzn2.x86_64                 49/51 
+  Cleanup    : iproute-5.10.0-2.amzn2.0.1.x86_64                          50/51 
+  Cleanup    : libgomp-7.3.1-14.amzn2.x86_64                              51/51 
+  Verifying  : libtiff-4.0.3-35.amzn2.0.2.x86_64                           1/51 
+  Verifying  : libgomp-7.3.1-15.amzn2.x86_64                               2/51 
+  Verifying  : dracut-config-generic-033-535.amzn2.1.6.x86_64              3/51 
+  Verifying  : 2:vim-data-8.2.4857-1.amzn2.0.1.noarch                      4/51 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.0.12.x86_64                    5/51 
+  Verifying  : libcurl-7.79.1-2.amzn2.0.1.x86_64                           6/51 
+  Verifying  : python-2.7.18-1.amzn2.0.5.x86_64                            7/51 
+  Verifying  : openldap-2.4.44-23.amzn2.0.4.x86_64                         8/51 
+  Verifying  : libstdc++-7.3.1-15.amzn2.x86_64                             9/51 
+  Verifying  : systemd-libs-219-78.amzn2.0.18.x86_64                      10/51 
+  Verifying  : systemd-219-78.amzn2.0.18.x86_64                           11/51 
+  Verifying  : kernel-5.10.118-111.515.amzn2.x86_64                       12/51 
+  Verifying  : 2:vim-filesystem-8.2.4857-1.amzn2.0.1.noarch               13/51 
+  Verifying  : 2:vim-minimal-8.2.4857-1.amzn2.0.1.x86_64                  14/51 
+  Verifying  : 2:vim-common-8.2.4857-1.amzn2.0.1.x86_64                   15/51 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.3.x86_64                       16/51 
+  Verifying  : iproute-5.10.0-2.amzn2.0.2.x86_64                          17/51 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.5.x86_64                     18/51 
+  Verifying  : kernel-tools-5.10.118-111.515.amzn2.x86_64                 19/51 
+  Verifying  : libgcc-7.3.1-15.amzn2.x86_64                               20/51 
+  Verifying  : curl-7.79.1-2.amzn2.0.1.x86_64                             21/51 
+  Verifying  : 2:vim-enhanced-8.2.4857-1.amzn2.0.1.x86_64                 22/51 
+  Verifying  : dracut-033-535.amzn2.1.6.x86_64                            23/51 
+  Verifying  : systemd-sysv-219-78.amzn2.0.18.x86_64                      24/51 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.3.x86_64                  25/51 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.5.x86_64                      26/51 
+  Verifying  : iproute-5.10.0-2.amzn2.0.1.x86_64                          27/51 
+  Verifying  : 2:vim-minimal-8.2.4428-1.amzn2.0.3.x86_64                  28/51 
+  Verifying  : python-2.7.18-1.amzn2.0.4.x86_64                           29/51 
+  Verifying  : curl-7.79.1-1.amzn2.0.1.x86_64                             30/51 
+  Verifying  : dracut-config-generic-033-535.amzn2.1.5.x86_64             31/51 
+  Verifying  : libcurl-7.79.1-1.amzn2.0.1.x86_64                          32/51 
+  Verifying  : 2:vim-data-8.2.4428-1.amzn2.0.3.noarch                     33/51 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.4.x86_64                     34/51 
+  Verifying  : 2:vim-filesystem-8.2.4428-1.amzn2.0.3.noarch               35/51 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.2.x86_64                       36/51 
+  Verifying  : 2:vim-common-8.2.4428-1.amzn2.0.3.x86_64                   37/51 
+  Verifying  : openldap-2.4.44-23.amzn2.0.3.x86_64                        38/51 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.0.11.x86_64                   39/51 
+  Verifying  : dracut-033-535.amzn2.1.5.x86_64                            40/51 
+  Verifying  : libstdc++-7.3.1-14.amzn2.x86_64                            41/51 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.2.x86_64                  42/51 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.4.x86_64                      43/51 
+  Verifying  : systemd-219-78.amzn2.0.16.x86_64                           44/51 
+  Verifying  : systemd-sysv-219-78.amzn2.0.16.x86_64                      45/51 
+  Verifying  : kernel-tools-5.10.109-104.500.amzn2.x86_64                 46/51 
+  Verifying  : libgomp-7.3.1-14.amzn2.x86_64                              47/51 
+  Verifying  : 2:vim-enhanced-8.2.4428-1.amzn2.0.3.x86_64                 48/51 
+  Verifying  : libgcc-7.3.1-14.amzn2.x86_64                               49/51 
+  Verifying  : libtiff-4.0.3-35.amzn2.0.1.x86_64                          50/51 
+  Verifying  : systemd-libs-219-78.amzn2.0.16.x86_64                      51/51 
+
+Installed:
+  kernel.x86_64 0:5.10.118-111.515.amzn2                                        
+
+Updated:
+  curl.x86_64 0:7.79.1-2.amzn2.0.1                                              
+  dracut.x86_64 0:033-535.amzn2.1.6                                             
+  dracut-config-generic.x86_64 0:033-535.amzn2.1.6                              
+  iproute.x86_64 0:5.10.0-2.amzn2.0.2                                           
+  kernel-tools.x86_64 0:5.10.118-111.515.amzn2                                  
+  libcurl.x86_64 0:7.79.1-2.amzn2.0.1                                           
+  libgcc.x86_64 0:7.3.1-15.amzn2                                                
+  libgomp.x86_64 0:7.3.1-15.amzn2                                               
+  libstdc++.x86_64 0:7.3.1-15.amzn2                                             
+  libtiff.x86_64 0:4.0.3-35.amzn2.0.2                                           
+  microcode_ctl.x86_64 2:2.1-47.amzn2.0.12                                      
+  openldap.x86_64 0:2.4.44-23.amzn2.0.4                                         
+  openssl.x86_64 1:1.0.2k-24.amzn2.0.3                                          
+  openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.3                                     
+  python.x86_64 0:2.7.18-1.amzn2.0.5                                            
+  python-devel.x86_64 0:2.7.18-1.amzn2.0.5                                      
+  python-libs.x86_64 0:2.7.18-1.amzn2.0.5                                       
+  systemd.x86_64 0:219-78.amzn2.0.18                                            
+  systemd-libs.x86_64 0:219-78.amzn2.0.18                                       
+  systemd-sysv.x86_64 0:219-78.amzn2.0.18                                       
+  vim-common.x86_64 2:8.2.4857-1.amzn2.0.1                                      
+  vim-data.noarch 2:8.2.4857-1.amzn2.0.1                                        
+  vim-enhanced.x86_64 2:8.2.4857-1.amzn2.0.1                                    
+  vim-filesystem.noarch 2:8.2.4857-1.amzn2.0.1                                  
+  vim-minimal.x86_64 2:8.2.4857-1.amzn2.0.1                                     
+
+Complete!
+-----------------------------Step1: Docker Installation started--------------------------------------
+
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Cleaning repos: amzn2-core amzn2extra-docker amzn2extra-kernel-5.10
+17 metadata files removed
+6 sqlite files removed
+0 metadata files removed
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package docker.x86_64 0:20.10.13-2.amzn2 will be installed
+--> Processing Dependency: runc >= 1.0.0 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: libcgroup >= 0.40.rc1-5.15 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: containerd >= 1.3.2 for package: docker-20.10.13-2.amzn2.x86_64
+--> Processing Dependency: pigz for package: docker-20.10.13-2.amzn2.x86_64
+--> Running transaction check
+---> Package containerd.x86_64 0:1.4.13-3.amzn2 will be installed
+---> Package libcgroup.x86_64 0:0.41-21.amzn2 will be installed
+---> Package pigz.x86_64 0:2.3.4-1.amzn2.0.1 will be installed
+---> Package runc.x86_64 0:1.0.3-3.amzn2 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package        Arch       Version                  Repository             Size
+================================================================================
+Installing:
+ docker         x86_64     20.10.13-2.amzn2         amzn2extra-docker      40 M
+Installing for dependencies:
+ containerd     x86_64     1.4.13-3.amzn2           amzn2extra-docker      23 M
+ libcgroup      x86_64     0.41-21.amzn2            amzn2-core             66 k
+ pigz           x86_64     2.3.4-1.amzn2.0.1        amzn2-core             81 k
+ runc           x86_64     1.0.3-3.amzn2            amzn2extra-docker     3.0 M
+
+Transaction Summary
+================================================================================
+Install  1 Package (+4 Dependent packages)
+
+Total download size: 67 M
+Installed size: 280 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                               65 MB/s |  67 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : runc-1.0.3-3.amzn2.x86_64                                    1/5 
+  Installing : containerd-1.4.13-3.amzn2.x86_64                             2/5 
+  Installing : libcgroup-0.41-21.amzn2.x86_64                               3/5 
+  Installing : pigz-2.3.4-1.amzn2.0.1.x86_64                                4/5 
+  Installing : docker-20.10.13-2.amzn2.x86_64                               5/5 
+  Verifying  : containerd-1.4.13-3.amzn2.x86_64                             1/5 
+  Verifying  : pigz-2.3.4-1.amzn2.0.1.x86_64                                2/5 
+  Verifying  : libcgroup-0.41-21.amzn2.x86_64                               3/5 
+  Verifying  : runc-1.0.3-3.amzn2.x86_64                                    4/5 
+  Verifying  : docker-20.10.13-2.amzn2.x86_64                               5/5 
+
+Installed:
+  docker.x86_64 0:20.10.13-2.amzn2                                              
+
+Dependency Installed:
+  containerd.x86_64 0:1.4.13-3.amzn2      libcgroup.x86_64 0:0.41-21.amzn2     
+  pigz.x86_64 0:2.3.4-1.amzn2.0.1         runc.x86_64 0:1.0.3-3.amzn2          
+
+Complete!
+Installing docker
+  0  ansible2                 available    \
+        [ =2.4.2  =2.4.6  =2.8  =stable ]
+  2  httpd_modules            available    [ =1.0  =stable ]
+  3  memcached1.5             available    \
+        [ =1.5.1  =1.5.16  =1.5.17 ]
+  5  postgresql9.6            available    \
+        [ =9.6.6  =9.6.8  =stable ]
+  6  postgresql10             available    [ =10  =stable ]
+  9  R3.4                     available    [ =3.4.3  =stable ]
+ 10  rust1                    available    \
+        [ =1.22.1  =1.26.0  =1.26.1  =1.27.2  =1.31.0  =1.38.0
+          =stable ]
+ 11  vim                      available    [ =8.0  =stable ]
+ 18  libreoffice              available    \
+        [ =5.0.6.2_15  =5.3.6.1  =stable ]
+ 19  gimp                     available    [ =2.8.22 ]
+ 20  docker=latest            enabled      \
+        [ =17.12.1  =18.03.1  =18.06.1  =18.09.9  =stable ]
+ 21  mate-desktop1.x          available    \
+        [ =1.19.0  =1.20.0  =stable ]
+ 22  GraphicsMagick1.3        available    \
+        [ =1.3.29  =1.3.32  =1.3.34  =stable ]
+ 23  tomcat8.5                available    \
+        [ =8.5.31  =8.5.32  =8.5.38  =8.5.40  =8.5.42  =8.5.50
+          =stable ]
+ 24  epel                     available    [ =7.11  =stable ]
+ 25  testing                  available    [ =1.0  =stable ]
+ 26  ecs                      available    [ =stable ]
+ 27  corretto8                available    \
+        [ =1.8.0_192  =1.8.0_202  =1.8.0_212  =1.8.0_222  =1.8.0_232
+          =1.8.0_242  =stable ]
+ 28  firecracker              available    [ =0.11  =stable ]
+ 29  golang1.11               available    \
+        [ =1.11.3  =1.11.11  =1.11.13  =stable ]
+ 30  squid4                   available    [ =4  =stable ]
+ 32  lustre2.10               available    \
+        [ =2.10.5  =2.10.8  =stable ]
+ 33  java-openjdk11           available    [ =11  =stable ]
+ 34  lynis                    available    [ =stable ]
+ 35  kernel-ng                available    [ =stable ]
+ 36  BCC                      available    [ =0.x  =stable ]
+ 37  mono                     available    [ =5.x  =stable ]
+ 38  nginx1                   available    [ =stable ]
+ 39  ruby2.6                  available    [ =2.6  =stable ]
+ 40  mock                     available    [ =stable ]
+ 41  postgresql11             available    [ =11  =stable ]
+ 42  php7.4                   available    [ =stable ]
+ 43  livepatch                available    [ =stable ]
+ 44  python3.8                available    [ =stable ]
+ 45  haproxy2                 available    [ =stable ]
+ 46  collectd                 available    [ =stable ]
+ 47  aws-nitro-enclaves-cli   available    [ =stable ]
+ 48  R4                       available    [ =stable ]
+  _  kernel-5.4               available    [ =stable ]
+ 50  selinux-ng               available    [ =stable ]
+ 51  php8.0                   available    [ =stable ]
+ 52  tomcat9                  available    [ =stable ]
+ 53  unbound1.13              available    [ =stable ]
+ 54  mariadb10.5              available    [ =stable ]
+ 55  kernel-5.10=latest       enabled      [ =stable ]
+ 56  redis6                   available    [ =stable ]
+ 57  ruby3.0                  available    [ =stable ]
+ 58  postgresql12             available    [ =stable ]
+ 59  postgresql13             available    [ =stable ]
+ 60  mock2                    available    [ =stable ]
+ 61  dnsmasq2.85              available    [ =stable ]
+ 62  kernel-5.15              available    [ =stable ]
+ 63  postgresql14             available    [ =stable ]
+-------------------------------Docker Installation completed. !!......................................
+
+------------------------------Step2: Prometheus Installation started--------------------------------
+
+prometheus-2.7.1.linux-amd64/
+prometheus-2.7.1.linux-amd64/LICENSE
+prometheus-2.7.1.linux-amd64/prometheus.yml
+prometheus-2.7.1.linux-amd64/consoles/
+prometheus-2.7.1.linux-amd64/consoles/node-cpu.html
+prometheus-2.7.1.linux-amd64/consoles/node.html
+prometheus-2.7.1.linux-amd64/consoles/prometheus.html
+prometheus-2.7.1.linux-amd64/consoles/prometheus-overview.html
+prometheus-2.7.1.linux-amd64/consoles/node-overview.html
+prometheus-2.7.1.linux-amd64/consoles/node-disk.html
+prometheus-2.7.1.linux-amd64/consoles/index.html.example
+prometheus-2.7.1.linux-amd64/console_libraries/
+prometheus-2.7.1.linux-amd64/console_libraries/prom.lib
+prometheus-2.7.1.linux-amd64/console_libraries/menu.lib
+prometheus-2.7.1.linux-amd64/NOTICE
+prometheus-2.7.1.linux-amd64/promtool
+prometheus-2.7.1.linux-amd64/prometheus
+--------------------------updating prometheus.service file---------------------------
+
+----------------------------------------Prometheus.service file updation has been completed.--------------------------------------------------
+● prometheus.service - Prometheus
+   Loaded: loaded (/etc/systemd/system/prometheus.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2022-06-29 06:02:14 UTC; 242ms ago
+ Main PID: 10150 (prometheus)
+   CGroup: /system.slice/prometheus.service
+           └─10150 /usr/local/bin/prometheus --config.file /etc/prometheus/prometheus.yml --storage.tsdb.path /var/lib/prometheus/ --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_libraries
+
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.716794474Z caller=main.go:303 build_context="(go=go1.11.5, user=root@f9f82868fc43, date=20190131-11:16:59)"
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.716837196Z caller=main.go:304 host_details="(Linux 5.10.109-104.500.amzn2.x86_64 #1 SMP Wed Apr 13 20:31:43 UTC 2022 x86_64 ip-10-0-8-72.ec2.internal (none))"
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.716864215Z caller=main.go:305 fd_limits="(soft=65535, hard=65535)"
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.716885897Z caller=main.go:306 vm_limits="(soft=unlimited, hard=unlimited)"
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.737807445Z caller=main.go:620 msg="Starting TSDB ..."
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.777518117Z caller=main.go:635 msg="TSDB started"
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.791669922Z caller=main.go:695 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.80262857Z caller=web.go:416 component=web msg="Start listening for connections" address=0.0.0.0:9090
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.813817153Z caller=main.go:722 msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml
+Jun 29 06:02:14 ip-10-0-8-72.ec2.internal prometheus[10150]: level=info ts=2022-06-29T06:02:14.81430609Z caller=main.go:589 msg="Server is ready to receive web requests."
+----------------------------------------Prometheus Installation completed. !!-------------------------------------------------------------------
+
+29 June,2022 11:32:05 | 
+Sucessfull!! Installation Setup has been completed.
+
+29 June,2022 11:32:05 | 
+
+Instance details are below: 
+
+InstanceID is :  i-081082dc2a421909d
+InstanceType is : t2.micro
+PublicIP_address is : 52.23.239.123
